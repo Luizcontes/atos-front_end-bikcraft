@@ -1,0 +1,119 @@
+
+/* MAIN SECTION */
+.introducao {
+    height: 680px;
+    background-color: var(--c12);
+}
+
+.introducao__container {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.informacao {
+    color: var(--w);
+    padding-right: 5rem;
+}
+
+.informacao>* {
+    margin-top: 1.5rem;
+}
+
+.informacao h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--w);
+    /* text-transform: lowercase; */
+    /* padding-bottom: 60px; */
+}
+
+.informacao h1::after {
+    content: ".";
+    color: var(--p1);
+}
+
+.informacao p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--c5);
+    /* text-transform: uppercase; */
+    /* padding-top: 60px; */
+}
+
+.informacao input {
+    background-color: #E4A30B;
+    color: var(--p5);
+    font-weight: 500;
+    font-size: 18px;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.image__intro {
+    width: 640px;
+    height: 800px;
+    margin-right: -80px;
+}
+
+/* BIKES SECTION */
+
+.bikes {
+    height: 720px;
+    margin-top: 240px;
+}
+
+.bikes h2 {
+    width: 1200px;
+    margin: 2rem auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--c11);
+}
+
+.bikes h2::after {
+    content: ".";
+    color: var(--p1);
+}
+
+.bikes__cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1460px;
+}
+
+.bikes__card h3::before {
+    content: " ";
+    display: inline-block;
+    background-color: var(--p1);
+    vertical-align: middle;
+    width: 12px;
+    height: 8px;
+    margin-right: 0.5rem;
+}
+
+.bikes__card h3 {
+    /* margin-top: 0.5rem; */
+    color: var(--c11);
+    font-family: 'Poppins';
+    font-size: 2rem;
+}
+
+.bikes__card p {
+    color: var(--c8);
+    font-size: 1rem;
+    font-weight: 400;
+    font: "Roboto";
+}
