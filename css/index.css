@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@400;500&display=swap');
 
 /* MAIN SECTION */
 .introducao {
@@ -28,8 +29,6 @@
     font-size: 64px;
     line-height: 72px;
     color: var(--w);
-    /* text-transform: lowercase; */
-    /* padding-bottom: 60px; */
 }
 
 .informacao h1::after {
@@ -44,8 +43,6 @@
     font-size: 24px;
     line-height: 32px;
     color: var(--c5);
-    /* text-transform: uppercase; */
-    /* padding-top: 60px; */
 }
 
 .informacao input {
@@ -105,7 +102,6 @@
 }
 
 .bikes__card h3 {
-    /* margin-top: 0.5rem; */
     color: var(--c11);
     font-family: 'Poppins';
     font-size: 2rem;
@@ -115,5 +111,224 @@
     color: var(--c8);
     font-size: 1rem;
     font-weight: 400;
-    font: "Roboto";
+    font-family: 'Roboto';
+}
+
+
+/* DESCRIPTION SECTION */
+
+.description {
+    height: 960px;
+    margin-top: 200px;
+    background-color: var(--c11);
+}
+
+.description__container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.description__container--text {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.description__container--text>h3 {
+    color: var(--c5);
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+
+.description__container--text>.subtitulo {
+    color: var(--w);
+    font-size: 4rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 1.5rem;
+}
+
+.description__container--text>.subtitulo::after {
+    content: ".";
+    color: var(--p1);
+}
+
+.description__container--text>.descricao {
+    color: var(--c5);
+    font-size: 1.5rem;
+    padding-right: 3rem;
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+
+.description__container--text>.modelos {
+    display: inline-block;
+    color: var(--p1);
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-top: 1.5rem;
+    border-bottom: var(--p1) 3px solid;
+}
+
+.description__container--modelo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.description__container--modelo .modelo {
+    width: 50%;
+}
+
+.description__container--modelo .modelo h3 {
+    color: var(--w);
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-top: .8rem;
+}
+
+.description__container--modelo .modelo p {
+    color: var(--c5);
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-top: .8rem;
+    margin-right: 3.5rem;
+    line-height: 1.5;
+}
+
+.description__image img {
+    width: 700px;
+    height: 1120px;
+    margin-top: -80px;
+    margin-right: -160px;
+}
+
+
+/* PARCEIROS SECTION */
+
+.parceiros {
+    height: 392px;
+    margin-top: 200px;
+}
+
+.parceiros__container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.parceiros__container h3 {
+    color: var(--c11);
+    font-size: 4rem;
+    font-family: 'Poppins';
+}
+
+.parceiros__container h3::after {
+    content: ".";
+    color: var(--p1);
+}
+
+.badges {
+    margin: 0 -100px;
+    margin-top: 100px;
+}
+
+.badges .badge {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.border-b {
+    border-bottom: 1px solid var(--c2);
+}
+
+.border-r {
+    border-right: 1px solid var(--c2);
+}
+
+
+/* DEPOIMENTOS SECTION */
+
+.depoimentos {
+    display: flex;
+    height: 680px;
+    width: 1600px;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: var(--p1);
+}
+
+.depoimentos__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 4rem;
+}
+
+.depoimentos .mensagem {
+    color: var(--p5);
+    font-size: 2.25rem;
+    font-weight: 600;
+    font-family: 'Merriweather';
+    width: 600px;
+    margin-bottom: 2rem;
+}
+
+/* .depoimentos .mensagem::before {
+    content: "“";
+    color: var(--p2);
+    font-family: 'Merriweather';
+    font-size: 4rem;
+}
+
+.depoimentos .mensagem::after {
+    content: "”";
+    color: var(--p2);
+    font-family: 'Merriweather';
+    font-size: 4rem;
+} */
+
+.depoimentos .autor {
+    color: var(--p4);
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    margin-bottom: 4rem;
+}
+
+
+/* SEGUROS SECTION */
+
+.seguros {
+    height: 796px;
+    background-color: var(--c11);
+}
+
+.seguros__container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.seguros__container p {
+    padding-top: 60px;
+    color: var(--w);
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.seguros__container p::after {
+    content: ".";
+    color: var(--p1);
+}
+
+footer {
+    margin-top: 0;
 }
